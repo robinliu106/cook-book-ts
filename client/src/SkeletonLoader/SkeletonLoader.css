@@ -1,0 +1,69 @@
+/* skeleton-Card styles */
+.skeleton-card {
+    background-color: #fff;
+    margin: 12px;
+    border-radius: 5px;
+}
+
+/* skeleton-Card title */
+.skeleton-card__title {
+    padding: 8px;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.skeleton-card__title.loading {
+    height: 1rem;
+    width: 15%;
+    margin: 1rem;
+    border-radius: 3px;
+}
+
+/* skeleton-Card description */
+.skeleton-card__description {
+    padding: 8px;
+    font-size: 8px;
+}
+
+.skeleton-card__description.loading {
+    height: 3rem;
+    margin: 1rem;
+    width: auto;
+    border-radius: 3px;
+}
+
+/* The loading Class */
+.loading {
+    position: relative;
+    background-color: #e2e2e2;
+}
+
+/* The moving element */
+.loading::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+    background: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(transparent),
+        color-stop(rgba(255, 255, 255, 0.2)),
+        to(transparent)
+    );
+
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+
+    /* Adding animation */
+    animation: loading 0.8s infinite;
+}
+
+/* Loading Animation */
+@keyframes loading {
+    100% {
+        transform: translateX(100%);
+    }
+}
