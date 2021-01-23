@@ -1,5 +1,5 @@
 ## A zen experience for your favorite recipes built with the PERN stack 
-###### (PostgreSQL, Express, React, Node.js)
+###### (PostgreSQL, Express, React, Node.js + TypeScript)
 
 ![Recipe Page](https://user-images.githubusercontent.com/10891311/105613727-77b6a900-5d92-11eb-8d77-cc1bc3a39485.png)
 
