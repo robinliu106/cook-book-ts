@@ -7,7 +7,7 @@
 
 ![Add Recipe Page](https://user-images.githubusercontent.com/10891311/105613725-74bbb880-5d92-11eb-8f0b-a68a597386dc.png)
 
-## View your saved recipes in a 
+## View your saved recipes
 
 ![Other Recipes](https://user-images.githubusercontent.com/10891311/105613726-76857c00-5d92-11eb-8f0f-d4009c4f9167.png)
 
